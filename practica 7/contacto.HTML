@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Agregar Contacto</title>
+    <script src="contacto.js" defer></script>
+    <link rel='stylesheet' type='text/css' href='estilos.css'>
+</head>    
+
+<body>
+
+    <div class="contenedor">
+    <h1>contacto</h1>
+
+<form id="formulario">
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre">
+
+	<label for="apellido">Apellido:</label>
+    <input type="text" name="apellido" id="apellido">
+  
+    <label for="telefono">Telefono:</label>
+    <input type="tel" name="telefono" id="telefono">
+
+    <label for="correo">correo:</label>
+    <input type="email" name="correo" id="correo">
+  
+    <button type="submit" id="contacto">Guardar</button>
+  </form>
+
+
+  
+  <div id="qr-code"></div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</div>
+</body>
+</html>

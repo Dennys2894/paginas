@@ -1,0 +1,171 @@
+<html>
+    <head>
+        <title>Banco Dennys</title>
+
+        <style type="text/css">
+
+        #menuu {
+            margin-left:0ch;
+            width: 800px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .mena li a{
+            background-color: rgb(25, 30, 123);
+            color: white;
+            text-decoration: none;
+            padding: 10px 50px;
+            display: block;
+        }
+
+        .mena > li{
+            float:left;
+        }
+
+
+        </style>
+
+        <body>
+
+           <div id="menuu">
+
+              <UL class="mena">
+
+                  <li><a href=""> Canales BanDennys</a></li>
+                  <li><a href=""> Sobre Nosotros</a></li>
+                  <li><a href="https://www.banreservas.com/mapa"> Mapas</a></li>
+                  <li><a href="https://www.banreservas.com/calculadoras/pages/divisas.aspx"> Calculadora</a></li>
+        
+                </UL>
+           </div>
+    </body>
+            
+      
+        
+    
+
+        
+    
+
+        <img src="bd.png" height="" alt="" class="logo">
+
+        <style type="text/css">
+        
+        * {
+            
+            padding: 0px;
+            margin: 0px;
+        }
+
+        #menu {
+            margin: auto;
+            width: 800px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        ul, ol{
+            list-style: none;
+        }
+
+        .men li a{
+            background-color: rgb(38, 132, 239);
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            padding: 20px 10px;
+            display: block;
+        }
+
+        .men li a:hover{
+            background-color: #ffffff;
+        }
+
+        .men > li{
+            float:left;
+        }
+
+        .men li ul{
+            display:none;
+            position: absolute;
+            max-width: 250px;
+
+        }
+
+        .men li:hover > ul {
+            display: block;
+        }
+
+    
+        </style>
+    </head>
+    <body>
+        <div id="menu">
+            <ul class="men">
+                <li><a href=""> Cuentas</a>
+                    <ul>
+                        <li><a href="https://www.banreservas.com/personal/cuentas/ahorro/cuenta-de-ahorro-en-pesos"> Cuenta de ahorro en peso</a></li>
+                        <li><a href="https://www.banreservas.com/personal/cuentas/ahorro/cuenta-de-ahorro-en-d%C3%B3lares"> Cuenta de ahorro en dolares</a></li>
+                        <li><a href="https://www.banreservas.com/personal/cuentas/ahorro/cuenta-de-ahorro-en-euros"> Cuenta de ahorro en euro</a></li>
+                        <li><a href="https://www.banreservas.com/personal/cuentas/ahorro/cuenta-ahorro-m%C3%A1s"> Cuenta de ahorro mas</a></li>
+                        <li><a href="https://www.banreservas.com/personal/cuentas/ahorro/cuenta-de-ahorro-infantil"> Cuenta de ahorro infantil</a></li>
+                        <li><a href="https://www.banreservas.com/personal/cuentas/ahorro/cuenta-de-ahorro-preserva"> Cuenta de ahorro preserva</a></li>
+                        <li><a href="https://www.banreservas.com/personal/cuentas/ahorro/cuenta-de-ahorro-infantil-en-d%C3%B3lares"> Cuenta de ahorro infantil en dolares</a></li>
+                    </ul>
+                </li>
+
+               
+                <li><a href=""> Inversiones </a>
+                    <ul>
+                        <li><a href="https://www.banreservas.com/personal/inversiones/certificados/certificado-financiero-en-pesos"> Certificados financiero en pesos</a></li>
+                        <li><a href="https://www.banreservas.com/personal/inversiones/certificados/dep%C3%B3sito-a-plazo-en-d%C3%B3lares-y-euros"> plazo en dolares y euros</a></li>
+                        <li><a href="https://www.banreservas.com/personal/inversiones/mercado-de-valores/inversiones-en-t%C3%ADtulos-valores"> Inversion en Titulos Valores</a></li>
+                        <li><a href="https://www.banreservas.com/personal/inversiones/mercado-de-valores/fondos-de-inversi%C3%B3n"> Fondo de Inversion</a></li>
+                    </ul>
+                </li>
+
+              
+
+                <li><a href=""> Tarjetas</a>
+                    <ul>
+                        <li><a href="https://www.banreservas.com/personal/tarjetas/d%C3%A9bito/mastercard-d%C3%A9bito-d%C3%B3lares"> Mastercard debito dolares</a></li>
+                        <li><a href="https://www.banreservas.com/personal/tarjetas/cr%C3%A9dito/mastercard-black"> Tarjeta de Credito preserva</a></li>
+                        <li><a href="https://www.banreservas.com/personal/tarjetas/d%C3%A9bito/mastercard-d%C3%A9bito-gold"> Mastercard debito gold</a></li>
+                        <li><a href="https://www.banreservas.com/personal/tarjetas/cr%C3%A9dito/tarjeta-de-cr%C3%A9dito-visa-ser"> Tarjeta de credito Visa Ser</a></li>
+                        <li><a href="https://www.banreservas.com/personal/tarjetas/cr%C3%A9dito/mastercard-black"> Mastercard Black </a></li>
+                        <li><a href="https://www.banreservas.com/personal/tarjetas/cr%C3%A9dito/visa-flotilla-personal"> Visa Flotilla Personal</a></li>
+                        <li><a href="https://www.banreservas.com/personal/tarjetas/d%C3%A9bito/mastercard-d%C3%A9bito-standard"> Mastercard debito Standart</a></li>
+                        <li><a href="https://www.banreservas.com/personal/tarjetas/cr%C3%A9dito/visa-infinite"> Visa Infiniti</a></li>
+                    </ul>
+                </li>
+
+               
+
+                <li><a href=""> Prestamos</a>
+                    <ul>
+                        <li><a href="https://www.banreservas.com/personal/prestamos/personales/pr%C3%A9stamos-de-consumo"> prestamos de consumo</a></li>
+                        <li><a href="https://www.banreservas.com/personal/prestamos/hipotecarios/pr%C3%A9stamos-hipotecarios"> prestamos hipotecarios</a></li>
+                        <li><a href="https://www.banreservas.com/personal/prestamos/vehiculos/pr%C3%A9stamos-veh%C3%ADculos-nuevos"> prestamos vehiculares</a></li>
+                        <li><a href="https://www.banreservas.com/personal/prestamos/personales/pensionado-feliz"> Pensionado feliz</a></li>
+                        <li><a href="https://www.banreservas.com/personal/prestamos/personales/vacaciones-felices"> Vacaciones Felices</a></li>
+                    </ul>
+                </li>
+
+                
+
+                <li><a href=""> Seguros</a>
+                    <ul>
+                        <li><a href="https://www.banreservas.com/personal/seguros/seguros-de-personas/accidentes-personales"> Seguro por Accidente Perssonales</a></li>
+                        <li><a href="https://www.banreservas.com/personal/seguros/seguros-de-personas/seguro-m%C3%A9dico-internacional-just"> Seguro internacional</a></li>
+                        <li><a href="https://www.banreservas.com/personal/seguros/seguros-de-personas/vida-individual-en-pesos-y-d%C3%B3lares"> Seguro vida Individual en pesos y dolares</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="https://www.banreservas.com/personal/remesas-impuestos-y-servicios"> Remesas, Impuestos y Servicios </a>
+                    <ul>
+                        
+                </li>
+
+               
+            </ul>
+        </div>
+    </body>
+</html>
